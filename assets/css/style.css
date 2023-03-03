@@ -256,6 +256,17 @@ header{
     height: 100%;
     object-fit: cover;
 }
+.artBtn{
+    border: none;
+    transition: background 300ms ease;
+    border-radius: 100px;
+    padding: 2px 8px;
+    color: rgba(117, 117, 117, 1);
+    background-color: rgba(242, 242, 242, 1);
+}
+.artBtn:hover{
+    background-color: rgb(219, 217, 217);
+}
 
 /* SEZIONE ASIDE/FOOTER */
 
