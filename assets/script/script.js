@@ -10,3 +10,9 @@ window.onscroll = function() {
         button.classList.remove('active2')
     }
 };
+
+// ANIMAZIONE LETTERE
+
+let letter = document.querySelectorAll('svg')
+console.log(letter);
+
