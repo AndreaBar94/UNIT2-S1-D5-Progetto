@@ -362,12 +362,25 @@ footer div{
         margin-inline: auto ;
         padding-bottom: 2rem;
     }
+    .artBox{
+        width:80%;
+        padding-left: 3rem;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
 }
 
 /* MEDIA QUERIES TABLET */
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
-    
+
+    nav svg{
+        width: 30%;
+
+    }
+    nav li{
+        font-size: 0.7rem;
+    }
     
     .title h1{
         font-size: 3rem;
@@ -401,5 +414,11 @@ footer div{
         width: 80%;
         margin-inline: auto ;
         padding-bottom: 2rem;
+    }
+    .artBox{
+        width:80%;
+        padding-left: 3rem;
+        margin-right: 0;
+        margin-bottom: 3rem;
     }
 }
