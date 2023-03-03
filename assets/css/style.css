@@ -65,7 +65,9 @@ header{
 .title h1{
     font-family: 'Spectral', serif;
     font-size: 6rem;
+    font-weight: 600;
 }
+
 .title p{
     padding-block: 2rem;
     
@@ -115,21 +117,26 @@ header{
 .trending h3 div{
     padding-right: 0.6rem;
 }
-
+/* SELETTORE BOX ARTICOLI */
 .taBox{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: top;
+    flex-basis: 33%;
+    row-gap: 2rem;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+    border-bottom: 0.1px solid rgb(220, 216, 216);
+}
+
+/* SELETTORE ARTICOLO */
+.trendingArticle{
+    display: flex;
+    width: 20rem;
     
 }
 
-.trendingArticle{
-    display: flex;
-    justify-content: center;
-}
-
+/* SELETTORE NUMERO ARTICOLO */
 .trendingArticle div:nth-child(1){
     width: 1rem;
     height: 3rem;
@@ -138,25 +145,21 @@ header{
     color: rgba(230, 230, 230, 1);
 }
 
-.trendingArticle div:nth-child(2){
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    width: min-content;
-    width: 15rem;
-}
-
 .autore{
     display: flex;
-    align-items: center;
 }
-.autore p{
+
+.autore span{
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     color: rgba(25, 25, 25, 1);
+    overflow-x: scroll;
 }
+
 .autore img{
     border-radius: 100%;
+    height:50%;
+    margin-right: 1rem;
 }
 
 .trendingArticle div:nth-child(2) a{
@@ -165,7 +168,77 @@ header{
     font-weight: bold;
 }
 
-.trendingArticle div p{
+.trendingArticle div p {
     font-family: 'Roboto', sans-serif;
     margin-bottom: 0.8rem;
+}
+
+.data{
+    color: rgba(117, 117, 117, 1);
+    margin-top: 0.1rem;
+}
+
+.consigliato{
+    display: flex;
+    align-content: top;
+}
+
+/* SEZIONE CONTENT */
+
+.content{
+    margin-top: 3rem;
+    display: flex;
+}
+
+/* SINGLE ARTICLE */
+
+.artBox{
+    display: flex;
+    width:55%;
+    padding: 4rem;
+}
+.artText{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+.artAut{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.artAut img{
+    border-radius: 50%;
+}
+.artTit{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.artPre{
+    margin-bottom: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(117, 117, 117, 1);
+}
+.dataStar{
+    color: rgba(117, 117, 117, 1);
+    display: flex;
+    align-items: center;
+}
+.artLastline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.artImage{
+    width: 35%;
+    height: 10rem;
+    padding-left: 1rem;
+}
+.artImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
