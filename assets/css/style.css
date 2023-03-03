@@ -226,7 +226,8 @@ header{
     margin-bottom: 0.5rem;
 }
 .artAut img{
-    border-radius: 50%;
+    border-radius: 100%;
+    padding-right: 1rem;
 }
 .artTit{
     margin-bottom: 0.5rem;
