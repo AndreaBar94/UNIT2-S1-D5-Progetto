@@ -18,6 +18,7 @@ nav{
     z-index: 1;
 }
 .navCol{
+    transition: 1s;
     background: #ffc017;
 }
 
@@ -42,6 +43,7 @@ nav li a{
     color: rgba(41, 41, 41, 1);
 }
 .getStarted{
+    transition:1s;
     border: none;
     box-sizing: border-box;
     padding-inline: 1.3rem;
@@ -308,9 +310,11 @@ footer div{
 }
 
 .active{
+    transition: 1s ;
     background: white;
 }
 .active2{
+    transition: 1s ;
     background: #1a8917;
     border: none;
     box-sizing: border-box;

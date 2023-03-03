@@ -1,11 +1,13 @@
 
-
 let navbar = document.querySelector('nav');
 let button = document.querySelector('.getStarted');
 
-window.onscroll = () => {
-    if (window.scrollY > 170 && window.scrollY != 0) {
-        navbar.classList.toggle('active');
-        button.classList.toggle('active2');
+window.onscroll = function() {
+    if (window.pageYOffset > 180) {
+        navbar.classList.add('active')
+        button.classList.add('active2')
+    } else {
+        navbar.classList.remove('active')
+        button.classList.remove('active2')
     }
 };
