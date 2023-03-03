@@ -164,7 +164,6 @@ header{
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     color: rgba(25, 25, 25, 1);
-    /* overflow-x: scroll; */
 }
 
 .autore img{
@@ -321,3 +320,4 @@ footer div{
     border-radius: 40px;
     color: white;
 }
+
