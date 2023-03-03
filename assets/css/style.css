@@ -321,3 +321,45 @@ footer div{
     color: white;
 }
 
+/* MEDIA QUERIES MOBILE */
+
+@media screen and (max-width: 576px) {
+    nav li{
+        display: none;
+    }
+    nav ul li:last-child{
+        display: unset;
+    }
+    .animatedM{
+        display: none;
+    }
+    .title h1{
+        font-size: 3rem;
+    }
+    .title p{
+        font-size: 1.3rem;
+        font-weight: 300;
+    }
+    .hero{
+        padding-bottom: 3rem;
+    }
+    .taBox{
+        display: flex;
+        flex-direction: column;
+    }
+    .trendingArticle{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sticky{
+        position: unset;
+        width: 80%;
+        margin-inline: auto ;
+        padding-bottom: 2rem;
+    }
+}
