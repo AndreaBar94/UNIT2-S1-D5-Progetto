@@ -363,3 +363,43 @@ footer div{
         padding-bottom: 2rem;
     }
 }
+
+/* MEDIA QUERIES TABLET */
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    
+    
+    .title h1{
+        font-size: 3rem;
+    }
+    .title p{
+        font-size: 1.3rem;
+        font-weight: 300;
+    }
+    .hero{
+        padding-bottom: 3rem;
+    }
+    .taBox{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        column-gap: 0.2rem;
+    }
+    .trendingArticle{
+        display: flex;
+        flex-direction: row;
+        width: 48%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sticky{
+        position: unset;
+        width: 80%;
+        margin-inline: auto ;
+        padding-bottom: 2rem;
+    }
+}
