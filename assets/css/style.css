@@ -336,6 +336,9 @@ footer div{
     nav ul li:last-child{
         display: unset;
     }
+    .hero{
+        margin-top:5.5rem;
+    }
     .animatedM{
         display: none;
     }
